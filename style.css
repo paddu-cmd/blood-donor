@@ -1,0 +1,41 @@
+/* Sidebar background (left side) */
+[data-testid="stSidebar"] {
+    background-color: #ffe6f0; /* baby pink */
+}
+
+/* Sidebar text color */
+[data-testid="stSidebar"] * {
+    color: #333333; /* dark text for readability */
+}
+
+/* Main content background (right side) */
+[data-testid="stAppViewContainer"] {
+    background-color: white;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #ff66b2; /* darker pink for contrast */
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #ff99cc;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background-color: #ff66b2;
+}
+
+/* Input fields */
+.stTextInput>div>input, .stSelectbox>div>div>select {
+    background-color: white;
+    border: 2px solid #ff99cc;
+    border-radius: 6px;
+    padding: 6px;
+}
